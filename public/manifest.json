@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Command Nova — новая вкладка",
+  "short_name": "Command Nova",
+  "description": "Command Nova — рабочая новая вкладка: поиск Google, часы, статус-панель и компактная редактируемая сетка сайтов.",
+  "version": "1.2.0",
+  "minimum_chrome_version": "110",
+  "offline_enabled": true,
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  }
+}

@@ -1,0 +1,9 @@
+node_modules
+dist
+dist-firefox
+release
+artifacts
+*.zip
+*.xpi
+*.tsbuildinfo
+.DS_Store
